@@ -27,3 +27,12 @@ This project implements a **Client-Server Cloud File Storage and Publishing Syst
 - Provides **real-time notifications** when a file is downloaded by another user.
 - Saves downloaded files to a **user-specified directory**.
 - Can **disconnect and reconnect** at any time.
+
+## Contributors
+- Emir Talha Avci
+- Ezgi Cemre Kılıç
+
+## License
+This project is for **educational purposes** under **CS408 - Computer Networks** at **Sabancı University**.  
+Unauthorized distribution or reproduction is **prohibited**.
+
