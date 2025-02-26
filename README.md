@@ -1,11 +1,11 @@
 # Cs408NetworkProj
-Cloud File Storage and Publishing System
-CS 408 - Computer Networks - Fall 2024
-Project Overview
+##Cloud File Storage and Publishing System
+##CS 408 - Computer Networks - Fall 2024
+###Project Overview
 This project implements a Client-Server Cloud File Storage and Publishing System using TCP sockets. The system allows clients to upload, download, delete, and manage text files stored on a central server. The project features a Graphical User Interface (GUI) for both the server and client applications.
 
-Features
-Server
+###Features
+####Server
 Handles multiple simultaneous client connections.
 Stores uploaded files in a user-specified directory.
 Maintains a persistent file list (files remain available even after the server is restarted).
@@ -14,7 +14,7 @@ Displays real-time logs of all operations in the GUI.
 Prevents duplicate usernames during client connections.
 Allows clients to request a file list with corresponding owner information.
 Properly handles disconnections and ensures no crashes.
-Client
+####Client
 Connects to the server via TCP sockets.
 Allows users to upload, download, and delete text files.
 Ensures unique usernames while connecting.
